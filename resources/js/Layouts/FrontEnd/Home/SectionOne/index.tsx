@@ -6,10 +6,10 @@ const SectionOne = (props: Props) => {
   return (
     <div className="w-full py-8">
       <div className="container mx-auto">
-        <div className="flex items-center justify-start">
-          <h1 className="text-base uppercase font-bold text-secundary-dark flex-none mr-2">Postagens recentes</h1>
+        {/* <div className="flex items-center justify-start">
+          <h1 className="text-xl font-bold text-secundary-dark flex-none mr-2">Adicionados recentemente</h1>
           <div className="h-2 w-full border-y border-t-primary-red border-b-primary-green" />
-        </div>
+        </div> */}
 
         <div className="md:grid md:grid-cols-5 gap-8 mt-4">
 

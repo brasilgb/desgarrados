@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from "./Navbar";
+import Footer from './Footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -12,7 +13,7 @@ const LayoutFront = ({ children }: LayoutProps) => {
       <div className="flex-grow bg-primary-light pb-10">
         {children}
       </div>
-      <div className="bg-white border-t border-gray-300">fdfd</div>
+      <Footer />
     </div>
   )
 }

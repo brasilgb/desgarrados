@@ -25,6 +25,11 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
-        "react-icons": "^4.10.1"
+        "@tinymce/tinymce-react": "^4.3.0",
+        "animate.css": "^4.1.1",
+        "moment": "^2.29.4",
+        "react-datepicker": "^4.15.0",
+        "react-icons": "^4.10.1",
+        "react-select": "^5.7.3"
     }
 }
