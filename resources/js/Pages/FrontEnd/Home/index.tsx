@@ -5,6 +5,8 @@ import Hero from "@/Layouts/FrontEnd/Home/Hero";
 import ButtonsHero from '@/Layouts/FrontEnd/Home/ButtonsHero';
 import SectionOne from '@/Layouts/FrontEnd/Home/SectionOne';
 import SectionTwo from "@/Layouts/FrontEnd/Home/SectionTwo";
+import SectionThree from "@/Layouts/FrontEnd/Home/SectionThree";
+
 type Props = {}
 
 const Home = (props: Props) => {
@@ -18,6 +20,7 @@ const Home = (props: Props) => {
       </Hero>
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
     </LayoutFront>
   )
 }
